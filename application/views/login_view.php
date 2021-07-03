@@ -43,7 +43,7 @@
     </style>
   </head>
 <body class="hold-transition login-page" style="overflow-y: hidden;background:url(
-	'<?php echo base_url('assets_style/image/Buku-2.jpg');?>')no-repeat;background-size:100%;">
+	'<?php echo base_url('assets_style/image/bg.jpg');?>')no-repeat;background-size:110%;">
 <div class="login-box">
 	<br/>
   <div class="login-logo">
@@ -64,12 +64,7 @@
       </div>
       <div class="row">
         <div class="col-xs-8">
-        <!-- /.col
-          <div class="checkbox icheck">
-            <label>
-              <input type="checkbox" name="remember" id="remember" value="R1"> Remember Me
-            </label>
-          </div>-->
+        
           <!-- /.social-auth-links -->
         </div>
         <div class="col-xs-4">
@@ -84,7 +79,7 @@
   <br/>
   <footer>
     <div class="login-box-body text-center bg-blue">
-       <a style="color: yellow;"> Copyright &copy; Sistem Perpustakaan Codekop - <?php echo date("Y");?>
+       <a style="color: yellow;"> Copyright &copy; Sistem Perpustakaan - <?php echo date("Y");?>
 			 <br><center><p>Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a></p></center>
 			 
     </div>
