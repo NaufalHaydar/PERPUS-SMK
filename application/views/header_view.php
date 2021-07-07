@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title><?php echo $title_web;?> | Sistem Informasi Perpustakaan Codekop </title>
+  <title><?php echo $title_web;?> | Sistem Informasi Perpustakaan</title>
   <!-- Tell the browser to be responsive to screen width -->
 
 
@@ -57,13 +57,7 @@
 <div class="wrapper">
   <header class="main-header">
 
-    <!-- Logo -->
-    <a href="<?php echo base_url('index.php/dashboard');?>" class="logo">
-      <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>P</b>C</span>
-      <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg">Perpus Codekop</span>
-    </a>
+    
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
