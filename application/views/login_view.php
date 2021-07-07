@@ -43,17 +43,18 @@
     </style>
   </head>
 <body class="hold-transition login-page" style="overflow-y: hidden;background:url(
-	'<?php echo base_url('assets_style/image/bg.jpg');?>')no-repeat;background-size:110%;">
+	'<?php echo base_url('assets_style/image/abuabu.jpg');?>')no-repeat;background-size:110%;">
 <div class="login-box">
 	<br/>
-  <div class="login-logo">
-    <a href="index.php" style="color: yellow;">Sistem Informasi <br/><b>Perpustakaan</b></a>
-  </div>
+  
   <div id="tampilalert"></div>
   <!-- /.login-logo -->
   <div class="login-box-body" style="border:2px solid #226bbf;">
     <p class="login-box-msg" style="font-size:16px;"></p>
     <form action="<?= base_url('login/auth');?>" method="POST">
+      <div class="login-logo" >
+        <a href="index.php" style="color: black;"><b>Sistem Informasi <br/>Perpustakaan</b></a>
+      </div>
       <div class="form-group has-feedback">
         <input type="text" class="form-control" placeholder="Username" id="user" name="user" required="required" autocomplete="off">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
@@ -77,13 +78,7 @@
   </div>
   <!-- /.login-box-body -->
   <br/>
-  <footer>
-    <div class="login-box-body text-center bg-blue">
-       <a style="color: yellow;"> Copyright &copy; Sistem Perpustakaan - <?php echo date("Y");?>
-			 <br><center><p>Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a></p></center>
-			 
-    </div>
-  </footer>
+
 </div>
 <!-- /.login-box -->
 <!-- Response Ajax -->
